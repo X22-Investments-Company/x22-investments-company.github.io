@@ -1,0 +1,75 @@
+body{
+  font-family:"DIN Arabic",system-ui,sans-serif;
+  letter-spacing:-0.015em;
+}
+
+/* Subtle luxury depth */
+.bg-soft{
+  background:
+    radial-gradient(900px 700px at 20% -10%, rgba(0,0,0,.04), transparent 70%),
+    linear-gradient(to right, rgba(0,0,0,.035) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0,0,0,.035) 1px, transparent 1px);
+  background-size:auto,96px 96px,96px 96px;
+  animation:drift 18s ease-in-out infinite alternate;
+}
+
+.dark .bg-soft{
+  background:
+    radial-gradient(900px 700px at 20% -10%, rgba(255,255,255,.04), transparent 60%),
+    linear-gradient(to right, rgba(255,255,255,.055) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255,255,255,.055) 1px, transparent 1px);
+  background-size:auto,96px 96px,96px 96px;
+}
+
+@keyframes drift{
+  from{background-position:0% 0%;}
+  to{background-position:5% 3%;}
+}
+
+/* Scroll reveal */
+.reveal{
+  opacity:0;
+  transition:opacity .9s ease;
+}
+.reveal.visible{opacity:1;}
+
+/* Nav blur */
+.nav-blur{
+  background:rgba(255,255,255,.85);
+  backdrop-filter:blur(18px);
+}
+.dark .nav-blur{
+  background:rgba(0,0,0,.75);
+}
+
+/* Button */
+.btn{
+  display:inline-block;
+  border:1px solid;
+  padding:.95rem 2.2rem;
+  font-size:.75rem;
+  letter-spacing:.24em;
+  text-transform:uppercase;
+  transition:all .3s ease;
+  background:transparent;
+}
+
+html:not(.dark) .btn{border-color:#000;color:#000;}
+html:not(.dark) .btn:hover{background:#000;color:#fff;}
+
+.dark .btn{border-color:#fff;color:#fff;}
+.dark .btn:hover{background:#fff;color:#000;}
+
+/* Hero sub breathe */
+.hero-sub{
+  animation:breathe 6s ease-in-out infinite alternate;
+}
+@keyframes breathe{
+  from{opacity:.6;}
+  to{opacity:.75;}
+}
+
+/* Ensure the “22” uses ExtraLight */
+.x22-mark-22{
+  font-weight:150;
+}

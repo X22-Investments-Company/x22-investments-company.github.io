@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>X22 Investments</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = { darkMode: 'class' }
+  </script>
+
+  <link rel="stylesheet" href="./fonts/stylesheet.css" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body class="bg-white text-black dark:bg-black dark:text-white">
+  <div class="absolute inset-0 bg-soft"></div>
+
+  <header class="fixed w-full top-0 z-50 nav-blur border-b border-black/10 dark:border-white/10">
+    <div class="max-w-6xl mx-auto px-8 py-5 flex justify-between items-center">
+
+      <!-- Logo Composition -->
+      <a href="/" class="flex items-center group transition-opacity duration-500">
+        <img id="logoX"
+             src="./assets/X22_logo_abstract_black.svg"
+             class="h-6 w-auto transition-opacity duration-500 group-hover:opacity-60"
+             alt="X">
+
+        <span class="x22-mark-22 text-[25px] tracking-[-0.02em] -ml-[1px] transition-opacity duration-500 group-hover:opacity-60">
+          22
+        </span>
+      </a>
+
+      <button id="themeToggle"
+              class="text-[18px] tracking-[0.28em] uppercase opacity-60 hover:opacity-100 transition">
+        Dark
+      </button>
+
+    </div>
+  </header>
+
+  <main class="relative">
+
+    <!-- HERO -->
+    <section class="min-h-screen flex items-center justify-center px-8 text-center">
+      <div class="max-w-2xl mx-auto">
+
+        <h1 class="text-4xl md:text-5xl font-light leading-[1.12] tracking-[-0.02em]">
+          Long-duration capital.
+        </h1>
+
+        <p class="hero-sub mt-9 text-xl md:text-2xl font-light text-black/80 dark:text-white/90 tracking-[-0.01em]">
+          Structured. Selective. Patient.
+        </p>
+
+        <div class="mt-16">
+          <a href="#about" class="btn">Learn More</a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION 2 -->
+    <section id="about" class="py-40 px-8 border-t border-black/10 dark:border-white/10 reveal">
+      <div class="max-w-3xl mx-auto text-center">
+
+        <p class="text-2xl md:text-3xl font-light leading-relaxed max-w-2xl mx-auto">
+          We allocate deliberately.
+        </p>
+
+        <p class="mt-10 text-lg font-light text-black/70 dark:text-white/90 leading-relaxed max-w-xl mx-auto">
+          X22's capital is compounded through disciplined allocation
+          and structured deployment across a long-duration horizon.
+        </p>
+
+      </div>
+    </section>
+
+    <!-- SECTION 3 -->
+    <section class="py-40 px-8 border-t border-black/10 dark:border-white/10 reveal">
+      <div class="max-w-3xl mx-auto text-center">
+
+        <p class="text-2xl md:text-3xl font-light leading-relaxed tracking-[-0.02em] max-w-2xl mx-auto">
+          Non-dilutive alignment
+        </p>
+
+        <p class="mt-10 text-lg font-light text-black/70 dark:text-white/90 leading-relaxed max-w-xl mx-auto">
+          We support growth through structured capital designed to preserve
+          ownership and long-term control.
+        </p>
+
+        <p class="mt-6 text-lg font-light text-black/70 dark:text-white/90 leading-relaxed max-w-xl mx-auto">
+          Capital should strengthen direction, not compromise it.
+        </p>
+
+      </div>
+    </section>
+
+    <!-- SECTION 4 -->
+    <section class="py-40 px-8 border-t border-black/10 dark:border-white/10 reveal">
+      <div class="max-w-4xl mx-auto text-center">
+
+        <h2 class="text-2xl md:text-3xl font-light tracking-[-0.02em]">
+          Principles
+        </h2>
+
+        <div class="mt-16 grid grid-cols-1 md:grid-cols-2 gap-x-16 gap-y-10 text-center">
+          <div>
+            <p class="text-sm tracking-[0.25em] uppercase text-black/90 dark:text-white/90">01</p>
+            <p class="mt-3 text-lg font-light">Liquidity before yield</p>
+          </div>
+          <div>
+            <p class="text-sm tracking-[0.25em] uppercase text-black/90 dark:text-white/90">02</p>
+            <p class="mt-3 text-lg font-light">Discipline before deployment</p>
+          </div>
+          <div>
+            <p class="text-sm tracking-[0.25em] uppercase text-black/90 dark:text-white/90">03</p>
+            <p class="mt-3 text-lg font-light">Preservation before expansion</p>
+          </div>
+          <div>
+            <p class="text-sm tracking-[0.25em] uppercase text-black/90 dark:text-white/90">04</p>
+            <p class="mt-3 text-lg font-light">Alignment over extraction</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="py-36 px-8 border-t border-black/10 dark:border-white/10 text-center reveal">
+      <a href="mailto:office@x22investments.com" class="btn">
+        office@x22investments.com
+      </a>
+    </section>
+
+  </main>
+
+  <footer class="py-20 border-t border-black/10 dark:border-white/10 text-center">
+    <div class="text-sm tracking-[0.08em] font-regular">
+      X22 Investments Pty Ltd
+    </div>
+
+    <div class="mt-2 text-sm text-black/70 dark:text-white/80">
+      Private capital allocation platform
+    </div>
+
+    <div class="mt-3 text-center text-[12px] tracking-[0.11em] uppercase opacity-40">
+      © 2026 X22 Investments
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
