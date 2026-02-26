@@ -1,0 +1,288 @@
+@font-face {
+    font-family: 'URW DIN Arabic';
+    src: url('URWDINArabic-Medium.eot');
+    src: local('URW DIN Arabic Medium'), local('URWDINArabic-Medium'),
+        url('URWDINArabic-Medium.eot?#iefix') format('embedded-opentype'),
+        url('URWDINArabic-Medium.woff2') format('woff2'),
+        url('URWDINArabic-Medium.woff') format('woff'),
+        url('URWDINArabic-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'URW DIN Arabic XLight';
+    src: url('URWDINArabic-XLight.eot');
+    src: local('URW DIN Arabic XLight'), local('URWDINArabic-XLight'),
+        url('URWDINArabic-XLight.eot?#iefix') format('embedded-opentype'),
+        url('URWDINArabic-XLight.woff2') format('woff2'),
+        url('URWDINArabic-XLight.woff') format('woff'),
+        url('URWDINArabic-XLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'URW DIN Arabic SemiCond';
+    src: url('URWDINArabicSemiCond-Regular.eot');
+    src: local('URW DIN Arabic SemiCond'), local('URWDINArabicSemiCond-Regular'),
+        url('URWDINArabicSemiCond-Regular.eot?#iefix') format('embedded-opentype'),
+        url('URWDINArabicSemiCond-Regular.woff2') format('woff2'),
+        url('URWDINArabicSemiCond-Regular.woff') format('woff'),
+        url('URWDINArabicSemiCond-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'URW DIN Arabic';
+    src: url('URWDINArabic-Thin.eot');
+    src: local('URW DIN Arabic Thin'), local('URWDINArabic-Thin'),
+        url('URWDINArabic-Thin.eot?#iefix') format('embedded-opentype'),
+        url('URWDINArabic-Thin.woff2') format('woff2'),
+        url('URWDINArabic-Thin.woff') format('woff'),
+        url('URWDINArabic-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'URW DIN Arabic Cond';
+    src: url('URWDINArabicCond-Light.eot');
+    src: local('URW DIN Arabic Cond Light'), local('URWDINArabicCond-Light'),
+        url('URWDINArabicCond-Light.eot?#iefix') format('embedded-opentype'),
+        url('URWDINArabicCond-Light.woff2') format('woff2'),
+        url('URWDINArabicCond-Light.woff') format('woff'),
+        url('URWDINArabicCond-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'URW DIN Arabic SemiCond';
+    src: url('URWDINArabicSemiCond-Light.eot');
+    src: local('URW DIN Arabic SemiCond Light'), local('URWDINArabicSemiCond-Light'),
+        url('URWDINArabicSemiCond-Light.eot?#iefix') format('embedded-opentype'),
+        url('URWDINArabicSemiCond-Light.woff2') format('woff2'),
+        url('URWDINArabicSemiCond-Light.woff') format('woff'),
+        url('URWDINArabicSemiCond-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'URW DIN Arabic Cond';
+    src: url('URWDINArabicCond-Bold.eot');
+    src: local('URW DIN Arabic Cond Bold'), local('URWDINArabicCond-Bold'),
+        url('URWDINArabicCond-Bold.eot?#iefix') format('embedded-opentype'),
+        url('URWDINArabicCond-Bold.woff2') format('woff2'),
+        url('URWDINArabicCond-Bold.woff') format('woff'),
+        url('URWDINArabicCond-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'URW DIN Arabic Cond Demi';
+    src: url('URWDINArabicCond-Demi.eot');
+    src: local('URW DIN Arabic Cond Demi'), local('URWDINArabicCond-Demi'),
+        url('URWDINArabicCond-Demi.eot?#iefix') format('embedded-opentype'),
+        url('URWDINArabicCond-Demi.woff2') format('woff2'),
+        url('URWDINArabicCond-Demi.woff') format('woff'),
+        url('URWDINArabicCond-Demi.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'URW DIN Arabic Cond';
+    src: url('URWDINArabicCond-Thin.eot');
+    src: local('URW DIN Arabic Cond Thin'), local('URWDINArabicCond-Thin'),
+        url('URWDINArabicCond-Thin.eot?#iefix') format('embedded-opentype'),
+        url('URWDINArabicCond-Thin.woff2') format('woff2'),
+        url('URWDINArabicCond-Thin.woff') format('woff'),
+        url('URWDINArabicCond-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'URW DIN Arabic';
+    src: url('URWDINArabic-Light.eot');
+    src: local('URW DIN Arabic Light'), local('URWDINArabic-Light'),
+        url('URWDINArabic-Light.eot?#iefix') format('embedded-opentype'),
+        url('URWDINArabic-Light.woff2') format('woff2'),
+        url('URWDINArabic-Light.woff') format('woff'),
+        url('URWDINArabic-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'URW DIN Arabic SemiCond';
+    src: url('URWDINArabicSemiCond-Thin.eot');
+    src: local('URW DIN Arabic SemiCond Thin'), local('URWDINArabicSemiCond-Thin'),
+        url('URWDINArabicSemiCond-Thin.eot?#iefix') format('embedded-opentype'),
+        url('URWDINArabicSemiCond-Thin.woff2') format('woff2'),
+        url('URWDINArabicSemiCond-Thin.woff') format('woff'),
+        url('URWDINArabicSemiCond-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'URW DIN Arabic Cond XLight';
+    src: url('URWDINArabicCond-XLight.eot');
+    src: local('URW DIN Arabic Cond XLight'), local('URWDINArabicCond-XLight'),
+        url('URWDINArabicCond-XLight.eot?#iefix') format('embedded-opentype'),
+        url('URWDINArabicCond-XLight.woff2') format('woff2'),
+        url('URWDINArabicCond-XLight.woff') format('woff'),
+        url('URWDINArabicCond-XLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'URW DIN Arabic SemiCond';
+    src: url('URWDINArabicSemiCond-Medium.eot');
+    src: local('URW DIN Arabic SemiCond Medium'), local('URWDINArabicSemiCond-Medium'),
+        url('URWDINArabicSemiCond-Medium.eot?#iefix') format('embedded-opentype'),
+        url('URWDINArabicSemiCond-Medium.woff2') format('woff2'),
+        url('URWDINArabicSemiCond-Medium.woff') format('woff'),
+        url('URWDINArabicSemiCond-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'URW DIN Arabic SemiCond XLight';
+    src: url('URWDINArabicSemiCond-XLight.eot');
+    src: local('URW DIN Arabic SemiCond XLight'), local('URWDINArabicSemiCond-XLight'),
+        url('URWDINArabicSemiCond-XLight.eot?#iefix') format('embedded-opentype'),
+        url('URWDINArabicSemiCond-XLight.woff2') format('woff2'),
+        url('URWDINArabicSemiCond-XLight.woff') format('woff'),
+        url('URWDINArabicSemiCond-XLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'URW DIN Arabic Cond';
+    src: url('URWDINArabicCond-Black.eot');
+    src: local('URW DIN Arabic Cond Black'), local('URWDINArabicCond-Black'),
+        url('URWDINArabicCond-Black.eot?#iefix') format('embedded-opentype'),
+        url('URWDINArabicCond-Black.woff2') format('woff2'),
+        url('URWDINArabicCond-Black.woff') format('woff'),
+        url('URWDINArabicCond-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'URW DIN Arabic Demi';
+    src: url('URWDINArabic-Demi.eot');
+    src: local('URW DIN Arabic Demi'), local('URWDINArabic-Demi'),
+        url('URWDINArabic-Demi.eot?#iefix') format('embedded-opentype'),
+        url('URWDINArabic-Demi.woff2') format('woff2'),
+        url('URWDINArabic-Demi.woff') format('woff'),
+        url('URWDINArabic-Demi.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'URW DIN Arabic SemiCond';
+    src: url('URWDINArabicSemiCond-Bold.eot');
+    src: local('URW DIN Arabic SemiCond Bold'), local('URWDINArabicSemiCond-Bold'),
+        url('URWDINArabicSemiCond-Bold.eot?#iefix') format('embedded-opentype'),
+        url('URWDINArabicSemiCond-Bold.woff2') format('woff2'),
+        url('URWDINArabicSemiCond-Bold.woff') format('woff'),
+        url('URWDINArabicSemiCond-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'URW DIN Arabic SemiCond Demi';
+    src: url('URWDINArabicSemiCond-Demi.eot');
+    src: local('URW DIN Arabic SemiCond Demi'), local('URWDINArabicSemiCond-Demi'),
+        url('URWDINArabicSemiCond-Demi.eot?#iefix') format('embedded-opentype'),
+        url('URWDINArabicSemiCond-Demi.woff2') format('woff2'),
+        url('URWDINArabicSemiCond-Demi.woff') format('woff'),
+        url('URWDINArabicSemiCond-Demi.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'URW DIN Arabic';
+    src: url('URWDINArabic-Bold.eot');
+    src: local('URW DIN Arabic Bold'), local('URWDINArabic-Bold'),
+        url('URWDINArabic-Bold.eot?#iefix') format('embedded-opentype'),
+        url('URWDINArabic-Bold.woff2') format('woff2'),
+        url('URWDINArabic-Bold.woff') format('woff'),
+        url('URWDINArabic-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'URW DIN Arabic Cond';
+    src: url('URWDINArabicCond-Medium.eot');
+    src: local('URW DIN Arabic Cond Medium'), local('URWDINArabicCond-Medium'),
+        url('URWDINArabicCond-Medium.eot?#iefix') format('embedded-opentype'),
+        url('URWDINArabicCond-Medium.woff2') format('woff2'),
+        url('URWDINArabicCond-Medium.woff') format('woff'),
+        url('URWDINArabicCond-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'URW DIN Arabic Cond';
+    src: url('URWDINArabicCond-Regular.eot');
+    src: local('URW DIN Arabic Cond'), local('URWDINArabicCond-Regular'),
+        url('URWDINArabicCond-Regular.eot?#iefix') format('embedded-opentype'),
+        url('URWDINArabicCond-Regular.woff2') format('woff2'),
+        url('URWDINArabicCond-Regular.woff') format('woff'),
+        url('URWDINArabicCond-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'URW DIN Arabic';
+    src: url('URWDINArabic-Black.eot');
+    src: local('URW DIN Arabic Black'), local('URWDINArabic-Black'),
+        url('URWDINArabic-Black.eot?#iefix') format('embedded-opentype'),
+        url('URWDINArabic-Black.woff2') format('woff2'),
+        url('URWDINArabic-Black.woff') format('woff'),
+        url('URWDINArabic-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'URW DIN Arabic SemiCond';
+    src: url('URWDINArabicSemiCond-Black.eot');
+    src: local('URW DIN Arabic SemiCond Black'), local('URWDINArabicSemiCond-Black'),
+        url('URWDINArabicSemiCond-Black.eot?#iefix') format('embedded-opentype'),
+        url('URWDINArabicSemiCond-Black.woff2') format('woff2'),
+        url('URWDINArabicSemiCond-Black.woff') format('woff'),
+        url('URWDINArabicSemiCond-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'URW DIN Arabic';
+    src: url('URWDINArabic-Regular.eot');
+    src: local('URW DIN Arabic'), local('URWDINArabic-Regular'),
+        url('URWDINArabic-Regular.eot?#iefix') format('embedded-opentype'),
+        url('URWDINArabic-Regular.woff2') format('woff2'),
+        url('URWDINArabic-Regular.woff') format('woff'),
+        url('URWDINArabic-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
