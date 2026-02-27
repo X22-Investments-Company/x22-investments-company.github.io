@@ -4,6 +4,7 @@ const logoX = document.getElementById("logoX");
 
 function setTheme(mode) {
   const isDark = mode === "dark";
+
   html.classList.toggle("dark", isDark);
   toggle.textContent = isDark ? "Light" : "Dark";
 
@@ -13,11 +14,11 @@ function setTheme(mode) {
 }
 
 const saved = localStorage.getItem("x22-theme");
-if (saved) {
-  setTheme(saved);
+
+if (saved === "dark") {
+  setTheme("dark");
 } else {
-  const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-  setTheme(prefersDark ? "dark" : "light");
+  setTheme("light");
 }
 
 toggle.addEventListener("click", () => {
@@ -28,10 +29,13 @@ toggle.addEventListener("click", () => {
 
 // Scroll reveal
 const reveals = document.querySelectorAll(".reveal");
+
 const observer = new IntersectionObserver(
   (entries) => {
     entries.forEach((entry) => {
-      if (entry.isIntersecting) entry.target.classList.add("visible");
+      if (entry.isIntersecting) {
+        entry.target.classList.add("visible");
+      }
     });
   },
   { threshold: 0.15 }
